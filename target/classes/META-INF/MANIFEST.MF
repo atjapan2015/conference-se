@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Built-By: ubuntu
+Class-Path: libs/helidon-bundles-webserver-1.0.3.jar libs/helidon-webs
+ erver-1.0.3.jar libs/helidon-common-reactive-1.0.3.jar libs/helidon-c
+ ommon-http-1.0.3.jar libs/helidon-media-common-1.0.3.jar libs/opentra
+ cing-api-0.31.0.jar libs/opentracing-noop-0.31.0.jar libs/netty-codec
+ -http-4.1.34.Final.jar libs/netty-common-4.1.34.Final.jar libs/netty-
+ buffer-4.1.34.Final.jar libs/netty-transport-4.1.34.Final.jar libs/ne
+ tty-resolver-4.1.34.Final.jar libs/netty-codec-4.1.34.Final.jar libs/
+ netty-codec-http2-4.1.34.Final.jar libs/netty-handler-4.1.34.Final.ja
+ r libs/helidon-media-jsonp-server-1.0.3.jar libs/helidon-media-jsonp-
+ common-1.0.3.jar libs/javax.json-1.1.2.jar libs/javax.json-api-1.1.2.
+ jar libs/helidon-config-yaml-1.0.3.jar libs/helidon-config-1.0.3.jar 
+ libs/reactor-core-3.1.5.RELEASE.jar libs/reactive-streams-1.0.2.jar l
+ ibs/helidon-common-1.0.3.jar libs/snakeyaml-1.19.jar libs/javax.annot
+ ation-api-1.3.1.jar libs/helidon-health-1.0.3.jar libs/microprofile-h
+ ealth-api-1.0.jar libs/helidon-health-checks-1.0.3.jar libs/helidon-m
+ etrics-1.0.3.jar libs/microprofile-metrics-api-1.1.jar libs/org.osgi.
+ annotation.versioning-1.0.0.jar libs/helidon-tracing-zipkin-1.0.3.jar
+  libs/helidon-tracing-1.0.3.jar libs/opentracing-util-0.31.0.jar libs
+ /zipkin-sender-urlconnection-2.6.0.jar libs/zipkin-reporter-2.6.0.jar
+  libs/zipkin-2.8.1.jar libs/brave-opentracing-0.31.0.jar libs/brave-5
+ .0.0.jar libs/helidon-security-integration-webserver-1.0.3.jar libs/h
+ elidon-security-1.0.3.jar libs/helidon-common-configurable-1.0.3.jar 
+ libs/helidon-security-util-1.0.3.jar libs/helidon-security-providers-
+ abac-1.0.3.jar libs/helidon-security-providers-http-auth-1.0.3.jar li
+ bs/helidon-security-providers-common-1.0.3.jar libs/helidon-security-
+ providers-http-sign-1.0.3.jar libs/helidon-common-key-util-1.0.3.jar
+Build-Jdk: 1.8.0_202
+Created-By: Maven Integration for Eclipse
+Main-Class: io.helidon.examples.conference.se.Main
+
