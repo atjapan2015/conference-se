@@ -31,39 +31,3 @@ health:
 tracing:
   service: "helidon-se"
   protocol: "http"
-  
-security:
-  provider-policy:
-    type: "COMPOSITE"
-    authentication:
-      - name: "http-signatures"
-        flag: "OPTIONAL"
-      - name: "http-basic-auth"
-  providers:
-    - abac:
-    - http-signatures:
-        optional: true
-        sign-headers:
-          - method: "get"
-            always: ["date", "(request-target)", "host"]
-            if-present: []
-        inbound.keys:
-          - key-id: "helidon-mp"
-            principal-name: "MP Service"
-#            principal-type: "SERVICE"
-            hmac.secret: "badIdeaClearTextPassword!"
-    - http-basic-auth:
-        users:
-          - login: "jack"
-            password: "jackIsGreat"
-            roles: ["admin"]
-          - login: "jill"
-            password: "jillToo"
-            roles: ["user"]
-  web-server:
-    paths:
-      - path: "/greet/greeting[/{*}]"
-        authenticate: true
-        roles-allowed: ["admin"]
-      - path: "/greet/jack"
-        authenticate: true
